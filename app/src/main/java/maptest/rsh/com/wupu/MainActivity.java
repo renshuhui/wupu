@@ -1,5 +1,4 @@
 package maptest.rsh.com.wupu;
-
 import android.content.Intent;
 import android.os.Handler;
 import android.os.HandlerThread;

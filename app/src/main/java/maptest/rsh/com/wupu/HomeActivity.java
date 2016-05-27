@@ -7,6 +7,7 @@ public class HomeActivity extends BaseAvtivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //ejkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhk
         super.onCreate(savedInstanceState);
     }
 
