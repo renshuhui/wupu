@@ -13,12 +13,12 @@ public class MainActivity extends BaseAvtivity {
         @Override
         public void handleMessage(Message msg) {
             startActivity(new Intent(MainActivity.this,HomeActivity.class));
+            finish();
         }
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        initData();
     }
 
     @Override
