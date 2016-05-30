@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/titleshouye"
+        />
        <ScrollView
+           android:layout_weight="1"
            android:layout_width="match_parent"
            android:layout_height="match_parent">
                <LinearLayout
@@ -10,8 +19,20 @@
                    android:layout_height="match_parent"
                    android:orientation="vertical"
                    >
+                    <GridView
+                        android:id="@+id/titleGV"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:numColumns="5"
+                        ></GridView>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="2dp"
+
+                       android:background="#eee"
+                       />
 
 
                </LinearLayout>
        </ScrollView>
-</RelativeLayout>
+</LinearLayout>
